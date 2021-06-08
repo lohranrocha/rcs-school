@@ -1,4 +1,3 @@
-
 @media (max-width: 769px) {
 
     * { 
@@ -193,7 +192,7 @@
     .d-flex2 {
         text-align: center;
         position: absolute;
-        top: 600px;
+        top: 560px;
         left: 0px;
     }
     
@@ -252,15 +251,15 @@
     .rolagem #linha-bg {
         position: absolute;
         width: auto;
-        top: 50%;
-        left: -10%
+        top: 37%;
+        left: 5%
         
     }
     
     .bloco-principal-trad #bloco1 {
         position: absolute;
-        top: 25%;
-        margin-left: 18%;
+        top: 30%;
+        margin-left: 10%;
         
     }
     
@@ -410,8 +409,8 @@
     
     .img-quali {
         position: absolute;
-        top: 55%;
-        left: 25%;
+        top: 60%;
+        left: 23%;
         width: 70%;
     }
     
@@ -421,7 +420,7 @@
     
     .text-itens {
         position: absolute;
-        top: 15%;
+        top: 5%;
         left: 10%;
         
     }
@@ -495,7 +494,7 @@
     .foto-acess img {
         position: absolute;
         top: 17%;
-        left: 5%;
+        left: 8%;
         width: 70%;
     }
     
@@ -526,7 +525,7 @@
         width: 100vw;
         height: 140vh;
         background:white;
-        top: 510vh;
+        top: 590vh;
         left: 0;
         text-align: center;
     }
@@ -587,6 +586,48 @@
     }
 
 
+     /* SECTION SECURITY */
+
+     .security {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        top: 500vh;
+    }
+
+    .img-sec img {
+        width: 80%;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+
+    .txt-sec {
+        position: absolute;
+        top: 60%;
+        left: 30%;
+    }
+
+    .txt-sec h2 {
+        font-family: brown_regular;
+        font-size: 2em;
+        letter-spacing: 1px;
+        line-height: -50px;
+        margin-bottom: 40px;
+    }
+
+    .txt-sec p {
+        font-family: brown_light;
+        font-size: 1em;
+        margin-top: -10px;
+        margin-left: -23%;
+    }
+    
+     /* BLOCO AO FINAL DA SECTION */
+
+    .block {
+        margin: 50%
+    }
+
 
     /*----------------------Footer */
     
@@ -595,7 +636,7 @@
         width: 100vw;
         height: 100vh;
         background: rgb(139, 14, 35);
-        top: 640vh;
+        top: 750vh;
         left: 0;
         align-content: center;
         align-items: center;
@@ -672,7 +713,7 @@
     
     a#back-top {
         position: absolute;
-        top: 715vh;
+        top: 785vh;
         opacity: 60%;
         margin-left: 80%;
         z-index: 1;
@@ -699,7 +740,7 @@
     
     .after-line {
         position: absolute;
-        top: 730vh;
+        top: 835vh;
         width: 80%;
         left: 10%;
    }
@@ -1366,7 +1407,48 @@ section #linha2 {
             margin: auto;
             border: none;
         }
+        
+         /* SECTION SECURITY */
+
+    .security {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        top: 500vh;
+    }
+
+    .img-sec img {
+        width: 50%;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+
+    .txt-sec {
+        position: absolute;
+        top: 40%;
+        left: 56%;
+    }
+
+    .txt-sec h2 {
+        font-family: brown_regular;
+        font-size: 3.4em;
+        letter-spacing: 1px;
+        line-height: 70px;
+        margin-bottom: 40px;
+    }
+
+    .txt-sec p {
+        font-family: brown_light;
+        font-size: 1.3em;
+        margin-top: 30px;
+    }
     
+     /* BLOCO AO FINAL DA SECTION */
+
+    .block {
+        margin: 50%
+    }
+
     
     
         /*----------------------Footer */
@@ -2169,7 +2251,47 @@ section #linha2 {
             border: none;
         }
     
+ /* SECTION SECURITY */
+
+    .security {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        top: 500vh;
+    }
+
+    .img-sec img {
+        width: 50%;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+
+    .txt-sec {
+        position: absolute;
+        top: 40%;
+        left: 56%;
+    }
+
+    .txt-sec h2 {
+        font-family: brown_regular;
+        font-size: 3.4em;
+        letter-spacing: 1px;
+        line-height: 70px;
+        margin-bottom: 40px;
+    }
+
+    .txt-sec p {
+        font-family: brown_light;
+        font-size: 1.3em;
+        margin-top: 30px;
+    }
     
+     /* BLOCO AO FINAL DA SECTION */
+
+    .block {
+        margin: 50%
+    }
+
     
         /*----------------------Footer */
         
@@ -2867,7 +2989,7 @@ section #linha2 {
     
     .bloco-efeito {
         position: absolute;
-        top: 200px;
+        top: 300px;
         left: -700px;
     }
     
@@ -2892,7 +3014,7 @@ section #linha2 {
     
     .foto-acess img {
         position: absolute;
-        top: 13%;
+        top: 23%;
         left: 4%;
         width: 50%;
     }
@@ -2916,6 +3038,49 @@ section #linha2 {
         font-size: 1.3em;
         margin-top: 30px;
     }
+    /* SECTION SECURITY */
+
+    .security {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        top: 500vh;
+    }
+
+    .img-sec img {
+        width: 50%;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+
+    .txt-sec {
+        position: absolute;
+        top: 40%;
+        left: 56%;
+    }
+
+    .txt-sec h2 {
+        font-family: brown_regular;
+        font-size: 3.4em;
+        letter-spacing: 1px;
+        line-height: 70px;
+        margin-bottom: 40px;
+    }
+
+    .txt-sec p {
+        font-family: brown_light;
+        font-size: 1.3em;
+        margin-top: 30px;
+    }
+    
+     /* BLOCO AO FINAL DA SECTION */
+
+    .block {
+        margin: 50%
+    }
+
+
+
     /* -----------------------------------------
                                     Section FAQ */
 
@@ -2924,7 +3089,7 @@ section #linha2 {
         width: 100vw;
         height: 140vh;
         background:white;
-        top: 510vh;
+        top: 620vh;
         left: 0;
         text-align: center;
     }
@@ -2965,8 +3130,6 @@ section #linha2 {
         margin-top: 50px;
     }
 
-
-
     .rolagem#faq .bd {
         border-bottom: .2px solid lightgray;
         border-radius: none;
@@ -2992,7 +3155,7 @@ section #linha2 {
         width: 100vw;
         height: 100vh;
         background: rgb(139, 14, 35);
-        top: 640vh;
+        top: 770vh;
         left: 0;
         align-content: center;
         align-items: center;
@@ -3097,7 +3260,7 @@ section #linha2 {
     
     .after-line {
         position: absolute;
-        top: 725vh;
+        top: 855vh;
         width: 80%;
         left: 10%;
    }
@@ -3110,16 +3273,15 @@ section #linha2 {
     }
     .after-line p#esquerda {
         display: inline-block;
-        margin-left: 100px;
-        
-}
+        margin-left: 100px;    
+    }
     
     .after-line img#logo2 {
         position: absolute;
         top: -10%;
         left: 0;
         width: 56px;
-}
+    }
     
     .after-line p#direita {
         margin-left: 140px;
@@ -3133,9 +3295,9 @@ section #linha2 {
     }
 
     
-section #linha2 {
-    display: none;
-}
+    section #linha2 {
+        display: none;
+    }
 
    
 }
