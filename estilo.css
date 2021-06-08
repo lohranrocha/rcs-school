@@ -1906,7 +1906,7 @@ section #linha2 {
         .d-flex2 {
             text-align: center;
             position: absolute;
-            top: 600px;
+            top: 575px;
             left: 15px;
         }
         
@@ -2340,7 +2340,10 @@ section #linha2 {
         /* BLOCO AO FINAL DA SECTION */
 
         .block {
-            margin: 50%
+            position: absolute;
+            top: 600vh;
+            left: 22%;
+            z-index: 9999999999999;
         }
 
     
