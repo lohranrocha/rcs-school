@@ -3671,7 +3671,7 @@ section #linha2 {
             text-align: center;
             font-size: 1.5em;
             font-family: brown_light;
-            letter-spacing: 2px;
+            letter-spacing: 1px;
             
         }
         
@@ -3906,13 +3906,13 @@ section #linha2 {
         .img-sec img {
             width: 50%;
             margin-left: 43.5%;
-            margin-top: 8%;
+            margin-top: 10%;
         }
     
         .txt-sec {
             position: absolute;
             top: 40%;
-            left: 12%;
+            left: 10%;
         }
     
         .txt-sec h2 {
