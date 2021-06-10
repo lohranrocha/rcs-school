@@ -2980,6 +2980,7 @@ section #linha2 {
         left: 0px;
         width: 100vw;
         height: 100vh;
+        
     }
     
     .img-quali {
@@ -3009,7 +3010,7 @@ section #linha2 {
     
     .text-itens p {
         font-family: brown_light;
-        font-size: 1.2em;
+        font-size: 3em;
         padding: 5px;
         margin-top: 5px;
         margin-left: 0px;
@@ -3419,10 +3420,20 @@ section #linha2 {
             top: 85%;
             left: 95%;
             z-index: 99999999;
+            animation: mymove 5s infinite;
+        }
+        
+        div:hover {
+          animation-play-state: paused;
+        }
+        
+        @keyframes mymove {
+          from {top: 100vh;}
+          to {top: 90vh;}
         }
     
         .zapFloat a img {
-            width: 40px;
+            width: 60px;
             border-radius: 10px;
             
         }
@@ -3780,6 +3791,7 @@ section #linha2 {
             left: 0px;
             width: 100vw;
             height: 100vh;
+         
         }
         
         .img-quali {
@@ -3809,9 +3821,9 @@ section #linha2 {
         
         .text-itens p {
             font-family: brown_light;
-            font-size: 1.2em;
+            font-size: 1.6em;
             padding: 5px;
-            margin-top: 5px;
+            margin-top: -5px;
             margin-left: 0px;
             margin-bottom: 25px;
         }
@@ -3889,7 +3901,7 @@ section #linha2 {
         
         .text-acess p {
             font-family: brown_light;
-            font-size: 1.3em;
+            font-size: 1.6em;
             margin-top: 30px;
         }
     
@@ -3925,7 +3937,7 @@ section #linha2 {
     
         .txt-sec p {
             font-family: brown_light;
-            font-size: 1.3em;
+            font-size: 1.6em;
             margin-top: 30px;
         }
         
