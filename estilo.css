@@ -51,13 +51,23 @@
     }
 
     /* ZAP FLUTUANTE */
-
+    
     .zapFloat {
         float: right;
         position: fixed;
         top: 85%;
-        left: 85%;
+        left: 95%;
         z-index: 99999999;
+        animation: mymove 5s infinite;
+    }
+    
+    .zapFloat:hover {
+      animation-play-state: paused;
+    }
+    
+    @keyframes mymove {
+      from {top: 100vh;}
+      to {top: 90vh;}
     }
 
     .zapFloat a img {
@@ -65,13 +75,6 @@
         border-radius: 10px;
         
     }
-    
-    .zapFloat a img:hover {
-        cursor: pointer;
-        opacity: 70%;
-        transition: .4s;
-    }
-    
     
     /* background principal */
     
@@ -864,13 +867,22 @@ section #linha2 {
         }
     
         /* ZAP FLUTUANTE */
-    
         .zapFloat {
             float: right;
             position: fixed;
             top: 85%;
-            left: 93%;
+            left: 95%;
             z-index: 99999999;
+            animation: mymove 5s infinite;
+        }
+        
+        .zapFloat:hover {
+          animation-play-state: paused;
+        }
+        
+        @keyframes mymove {
+          from {top: 100vh;}
+          to {top: 90vh;}
         }
     
         .zapFloat a img {
@@ -878,13 +890,6 @@ section #linha2 {
             border-radius: 10px;
             
         }
-        
-        .zapFloat a img:hover {
-            cursor: pointer;
-            opacity: 70%;
-            transition: .4s;
-        }
-        
         
         /* background principal */
         
@@ -1748,27 +1753,30 @@ section #linha2 {
         }
     
         /* ZAP FLUTUANTE */
-    
+        
         .zapFloat {
             float: right;
             position: fixed;
             top: 85%;
-            left: 93%;
+            left: 95%;
             z-index: 99999999;
+            animation: mymove 5s infinite;
+        }
+        
+        .zapFloat:hover {
+          animation-play-state: paused;
+        }
+        
+        @keyframes mymove {
+          from {top: 100vh;}
+          to {top: 90vh;}
         }
     
         .zapFloat a img {
-            width: 40px;
+            width: 30px;
             border-radius: 10px;
             
         }
-        
-        .zapFloat a img:hover {
-            cursor: pointer;
-            opacity: 70%;
-            transition: .4s;
-        }
-        
         
         /* background principal */
         
@@ -2619,18 +2627,22 @@ section #linha2 {
         top: 85%;
         left: 95%;
         z-index: 99999999;
+        animation: mymove 5s infinite;
+    }
+    
+    .zapFloat:hover {
+      animation-play-state: paused;
+    }
+    
+    @keyframes mymove {
+      from {top: 100vh;}
+      to {top: 90vh;}
     }
 
     .zapFloat a img {
         width: 40px;
         border-radius: 10px;
         
-    }
-    
-    .zapFloat a img:hover {
-        cursor: pointer;
-        opacity: 70%;
-        transition: .4s;
     }
     
     
@@ -2937,7 +2949,7 @@ section #linha2 {
     .bloco-principal p {
         font-family: brown_light;
         color: white;
-        font-size: 1em;
+        font-size: 1.3em;
     }
     
     .bloco-principal #text-principal {
@@ -2997,7 +3009,7 @@ section #linha2 {
     .text-itens {
         position: absolute;
         top: 30%;
-        left: 10%;
+        left: 7%;
         
     }
     
@@ -3010,7 +3022,7 @@ section #linha2 {
     
     .text-itens p {
         font-family: brown_light;
-        font-size: 3em;
+        font-size: 1.3em;
         padding: 5px;
         margin-top: 5px;
         margin-left: 0px;
@@ -3044,7 +3056,7 @@ section #linha2 {
     
     .bloco-efeito {
         position: absolute;
-        top: 300px;
+        top: 350px;
         left: -700px;
     }
     
@@ -3423,7 +3435,7 @@ section #linha2 {
             animation: mymove 5s infinite;
         }
         
-        div:hover {
+        .zapFloat:hover {
           animation-play-state: paused;
         }
         
