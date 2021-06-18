@@ -1,4 +1,805 @@
-@media (max-width: 769px) {
+@media (max-width: 340px) {
+
+    * { 
+        margin: 0;
+        padding: 0;
+        max-width: 100vw;
+}
+    .conteudo-geral {
+        max-width: 100vw;
+        overflow: hidden;
+    }
+    @-ms-viewport {
+        width: device-width;
+    }
+    
+    html, body {
+        
+        max-width: 100vw;
+        max-height: 100vh;
+        scroll-behavior: smooth;
+            
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    /* Fontes */
+    @font-face {  
+        
+        
+        font-family: brown_light;
+        src: url(brown-light-webfont.woff);
+    }
+     @font-face {
+         
+        font-family: brown_regular;
+        src: url(brown-regular-webfont.woff);
+     }
+     
+     @font-face {
+         font-family: junicode;
+         src: url(junicode-webfont.woff);
+     }
+    
+    
+    
+    #container {
+        max-width: 100vw;
+        
+        
+    }
+
+    /* ZAP FLUTUANTE */
+    
+    .zapFloat {
+        float: right;
+        position: fixed;
+        top: 85%;
+        left: 95%;
+        z-index: 99999999;
+        animation: mymove 5s infinite;
+    }
+    
+    .zapFloat:hover {
+      animation-play-state: paused;
+    }
+    
+    @keyframes mymove {
+      from {left: -10%;}
+      to {left: 5%;}
+    }
+
+    .zapFloat a img {
+        width: 40px;
+        border-radius: 10px;
+        
+    }
+    
+    /* background principal */
+    
+    video {
+        display: none;
+    }
+
+    .backgroundd {
+        background: url(/foto-header.png) no-repeat center/cover;
+        position: absolute;
+        top:0;
+        left:0;
+        width: 110vw;
+        min-height: 100vh;
+        overflow: hidden;
+        
+    }
+        
+        /* links do menu navegaçao */
+        
+        #logo img {
+            position: absolute;
+            top: 65px;
+            left: 200px;
+            
+        }
+        
+        body #container {
+            display: flex;
+        }
+        
+        nav.navbar {
+            width: 100vw;
+            margin-top: 200px;
+            margin-left: 0px;
+            flex-direction: column;
+}
+        
+        ul li .nav-link {
+            width: 200px;
+            color: white;
+            text-align: center;
+            font-family: brown_regular;    
+            font-size: .8em;
+            
+        }
+
+        ul li .nav-link:hover {
+            transition: 0.4s;
+            color: lightgrey;
+        }
+                
+        
+        
+    /* Flexbox Principal com chamada para matrícula */
+    
+    .d-flex1 {
+        position: relative;
+        width: 95vw;
+        top: 90px;
+        left: 0px;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        
+    }
+    
+    .d-flex1 h6 {
+        font-family: brown_light;
+        letter-spacing: 3px;
+        font-size: .4em;
+        text-transform: uppercase;
+    }
+    
+    .d-flex1 h1 {
+        font-family: junicode;
+        font-size: 1.2em;
+    }
+    
+    .d-flex1 h4 {
+        font-family: brown_regular;
+        font-size: .6em;   
+    }
+    
+    .botao-inicio button.botao1 {
+        border-radius: 50px;
+        padding: 5px 40px 5px 40px;
+        font-size: .7em;
+        font-family: brown_regular;
+        margin-top: 20px;
+        background: rgb(196, 13, 13);  
+        border: none; 
+        position: relative;
+        
+    }
+    
+    .botao-inicio button.botao1:hover {
+        background: rgb(238, 9, 9) !important;
+        letter-spacing: 1px;
+        transition: 0.4s;
+    }
+    
+    /* Seta saiba mais */
+    
+    
+    .d-flex .text-scroll {
+        width: 100vw;
+    }
+    
+    .d-flex .seta-scroll {
+        width: 100vw;
+        text-align: center;
+        align-items: center;
+        opacity: 60%;
+        padding-top: 10px;
+    }
+
+    .d-flex2 {
+        text-align: center;
+        position: absolute;
+        top: 500px;
+        left: 0px;
+    }
+    
+    .d-flex2 a {
+        width: 100vw;
+        color: white;
+        opacity: 70%;
+        font-family: brown_regular;
+        font-size: .7em;
+    }
+    
+    .d-flex2 a:hover {
+        color: white;
+        text-decoration: none;
+        letter-spacing: 1px;
+        transition: 0.4s;
+        opacity: 100%;
+    }
+     
+    input {
+        display: none;    
+    }
+    
+    .scroll {
+        width: 100vw;
+        height: 100vh;	
+        margin-left: 0px;
+    }
+    
+    .bloco {
+        width: 100vw;
+        height: 100vh;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    /* sessão das section */
+    
+    .rolagem {
+        position: absolute;
+        top: 100vh;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    /*bg da section 1*/
+    
+    .rolagem#tradicao {
+        background: white;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        top: 100vh;
+        left: 0px;
+    }
+    
+    .rolagem #linha-bg {
+        display: none;
+        
+    }
+    
+    .bloco-principal-trad #bloco1 {
+        position: absolute;
+        top: 30%;
+        margin-left: 10%;
+        
+    }
+    
+    .bloco-principal-trad #bloco2 {
+        position: absolute;
+        top: 90%;
+        left: 35%;
+        width: auto;
+        
+    }
+    
+    .bloco-principal-trad #bloco3 {
+        position: absolute;
+        top: 50%;
+        left: 87%;
+    }
+    
+    .bloco-principal-trad #textos {
+        text-align: center;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100vw;
+        color:black;
+    }
+    
+    .bloco-principal-trad #textos h2 {
+        font-family: brown_regular;
+        font-size: 130%;
+    }
+    
+    .rolagem #textos p {
+        padding-top: 15px;
+        text-align: center;
+        font-size: 70%;
+        font-family: brown_light;
+        letter-spacing: 2px;
+        
+    }
+    
+    .efeito-foto:hover {
+        overflow: auto;
+    }
+    
+    .zoom {
+        overflow: hidden;
+    }
+    
+    .zoom img {
+        max-width: 100%;
+        transition: all 0.5s;
+    }
+    
+    .zoom:hover img {
+        transform: scale(1.05);
+    
+    }
+    
+    img#foto01 {    
+        position: absolute;
+        width: 30%;
+        top: 70%;
+        left: 5%;
+    }
+    
+    
+    img#foto02 {
+        position: absolute;
+        width: 35%;
+        top: 30%;
+        left: 35%;
+    }
+    
+    img#foto03 {    
+        width: 31%;
+        position: absolute;
+        top: 60%;
+        left: 65%;
+        
+    }
+    
+    /* Section 2 */
+    
+    .rolagem#ensino {
+        position: absolute;
+        top: 200vh;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+}
+    
+    .bloco-principal h3 {
+        font-family: brown_regular;
+        color: white;
+        font-size: 1.7em;
+        margin-bottom: 15px;
+        line-height: 40px;
+}
+    
+    .bloco-principal p {
+        font-family: brown_light;
+        color: white;
+        font-size: .75em;
+    }
+    
+    .bloco-principal #text-principal {
+        position: absolute;
+        top: 15%;
+        left: 8%;
+    }
+    
+    
+    .bandeira img {
+        width: 85%;
+        
+    }
+    
+    
+    .bandeira {
+        position: relative;
+        top: 50%;
+        left: 10%;
+        
+        
+    }
+    
+    
+    .bloco-principal {
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        width: 80%;
+        height: 80%;
+        border-radius: 30px;
+        background: rgb(116, 4, 32)
+    }
+    
+    /* Section 3 */
+    
+    .rolagem#qualidade {
+        position: absolute;
+        top: 300vh;
+        left: 0px;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .img-quali {
+        position: absolute;
+        top: 53%;
+        left: 21%;
+        width: 75%;
+    }
+    
+    .foto-quali img {
+        box-shadow: 10px 10px;
+    }
+    
+    .text-itens {
+        position: absolute;
+        top: 7%;
+        left: 10%;
+        
+    }
+    
+    .text-itens h2 {
+        font-family: brown_regular;
+        font-size: 2em;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .text-itens p {
+        font-family: brown_light;
+        font-size: .8em;
+        padding: 0px;
+        margin-top: 5px;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    
+    .text-itens p#conteudo {
+        margin-left: 50px;
+    }
+    
+    .text-itens span {
+        color: red;
+        letter-spacing: 2px;
+    }
+    
+    .text-itens img#mais {
+        position: absolute;
+        width: 20px;
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+    
+    .text-itens img#mais2 {
+        position: absolute;
+        width: 20px;
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+    
+    /* Efeito dos blocos no canto da tela */
+    
+    .bloco-efeito {
+        position: absolute;
+        top: 55%;
+        left: -60%;
+    }
+    
+    .bloco-efeito img#light {
+        margin-top: 180px;
+        margin-left: -70px;
+    }
+    
+    .bloco-efeito img#dark {
+        width: 1100px;
+        margin-top: 140px;
+    }
+    
+    /*Section 4*/
+    #acessibilidade {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 400vh;
+        left: 0;
+    }
+    
+    .foto-acess img {
+        position: absolute;
+        top: 5%;
+        left: 6%;
+        width: 80%;
+    }
+    
+    .text-acess {
+        position: absolute;
+        top: 44%;
+        left: 8%;
+    }
+    
+    .text-acess h2 {
+        font-family: brown_regular;
+        font-size: 2.2em;
+        letter-spacing: 1px;
+        line-height: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .text-acess p {
+        font-family: brown_light;
+        font-size: .85em;
+        margin-top: 30px;
+    }
+    /* -----------------------------------------
+                                    Section FAQ */
+
+    .rolagem#faq {
+        position: absolute;
+        width: 100vw;
+        height: 140vh;
+        background:white;
+        top: 580vh;
+        left: 0;
+        text-align: center;
+    }
+
+    .rolagem#faq .txt-faq {
+        margin-top: 100px;
+        font-family: brown_regular;
+        margin-bottom: 50px;
+    }
+
+    .rolagem#faq .txt-faq h2 {
+        font-size: 2.2em;
+    }
+
+    .rolagem#faq .btn {
+        width: 100%;
+        text-align: justify;
+        border: none;
+        padding-bottom: 30px;
+    }
+
+    .rolagem#faq p {
+        padding: 5px;
+        font-family: brown_regular;
+    }
+
+    .rolagem#faq p a {
+        font-size: 1em;
+    }
+
+    .rodape-faq span {
+        padding: 5px;
+        font-family: brown_light;
+        font-size: 1em;
+    }
+
+    .rodape-faq {
+        margin-top: 50px;
+    }
+
+
+
+    .rolagem#faq .bd {
+        border-bottom: .2px solid lightgray;
+        border-radius: none;
+    }
+
+    .rolagem#faq .btn:focus {
+        outline: none;
+        box-shadow: none;
+      }
+
+    .rolagem#faq .card {
+        width: 90%;
+        text-align: justify;
+        margin: auto;
+        border: none;
+    }
+
+
+     /* SECTION SECURITY */
+
+     .security {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        top: 490vh;
+    }
+
+    .img-sec img {
+        width: 80%;
+        margin-left: 5%;
+        margin-top: 6%;
+    }
+
+    .txt-sec {
+        position: absolute;
+        top: 45%;
+        left: 25%;
+    }
+
+    .txt-sec h2 {
+        font-family: brown_regular;
+        font-size: 2.2em;
+        letter-spacing: 1px;
+        line-height: -50px;
+        margin-bottom: 40px;
+        margin-left: -60px;
+    }
+
+    .txt-sec p {
+        font-family: brown_light;
+        font-size: .75em;
+        margin-top: -15px;
+        margin-left: -28%;
+    }
+    
+     /* BLOCO AO FINAL DA SECTION */
+
+    .block {
+        display: none;
+    }
+
+
+    /*----------------------Footer */
+    
+    .bot-prin {
+        position: absolute;
+        width: 100vw;
+        height: 110vh;
+        background: rgb(139, 14, 35);
+        top: 770vh;
+        left: 0;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .bot-prin #text-prin {
+        margin-top: 55px;
+    }
+    
+    .bot-prin #text-prin {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 100vw;
+        text-align: center;
+    }
+    
+    .bot-prin h2 {
+        font-size: 190%;
+        font-family: brown_regular;
+        color: white;
+        letter-spacing: 2px;
+    }
+    
+    .bot-prin p {
+        font-family: brown_regular;
+        font-size: 90%;
+        color: white;
+        margin-top: 20px;
+        letter-spacing: 2px;
+    }
+    
+    .call-action2 {
+        padding: 10px auto;
+        width: 50%;
+        height: 60px;
+        border-radius: 30px;
+        font-family: brown_regular;
+        font-size: 1.2em;
+        background: rgb(241, 166, 2);
+        box-shadow: none;
+        border: none;
+        color: white;
+    }
+    
+    .call-action2:hover {
+        background: rgb(241, 238, 4);
+        color: black;
+        letter-spacing: 1px;
+        transition: 0.4s;
+    }
+    
+    
+    .bot-prin .call-action2 {
+        position: absolute;
+        top: 200px;
+        left: 25%;
+    }    
+    
+    
+    .bot-prin p#pay {
+        position: absolute;
+        text-align: center;
+        width: 100vw;
+        font-size: 1.4em;
+        top: 350px; 
+    }
+    
+    .bot-prin img#met-pay {
+        margin-top: 430px;
+        width: 60%;
+        margin-left: 20%;
+    }
+    
+    a#back-top {
+        position: absolute;
+        top: 815vh;
+        opacity: 60%;
+        margin-left: 80%;
+        z-index: 1;
+    }
+    
+    .bot-prin button {
+        position: absolute;
+        left: 0;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        z-index: 1;
+    }
+    
+    
+    .after-line hr {
+        position: absolute;
+        top: -90%;
+        width: 100%;
+        height: 1px;
+        background: white;
+        
+    }
+    
+    .after-line {
+        position: absolute;
+        top: 865vh;
+        width: 80%;
+        left: 10%;
+   }
+    
+    .after-line p {
+        color: white;
+        font-size: 55%;
+        font-family: brown_regular;
+    }
+    .after-line p#esquerda {
+        margin-left: 25px;
+        margin-top: -40px;
+        float: left;
+        
+}
+    
+    .after-line img#logo2 {
+        position: absolute;
+        top: -20%;
+        left: -10%;
+        width: 46px;
+}
+    
+    .after-line p#direita {
+        margin-left: 90px;
+        margin-top: 13px;
+        padding-bottom: 10px;
+        
+        
+    }
+    
+    .after-line p#direita2 {
+        margin-top:  13px;
+        margin-left: 95px;
+        
+        
+    }
+
+    
+section #linha2 {
+    display: none;
+}
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 341px) and (max-width: 769px) {
 
     * { 
         margin: 0;
