@@ -801,6 +801,7 @@ section #linha2 {
 @media (min-width: 341px) and (max-width: 769px) {
 
     * { 
+        border: 1px solid red;
         margin: 0;
         padding: 0;
         max-width: 100vw;
@@ -1087,13 +1088,13 @@ section #linha2 {
     
     .bloco-principal-trad #textos h2 {
         font-family: brown_regular;
-        font-size: 130%;
+        font-size: 2.1em;
     }
     
     .rolagem #textos p {
         padding-top: 15px;
         text-align: center;
-        font-size: 70%;
+        font-size: 90%;
         font-family: brown_light;
         letter-spacing: 2px;
         
@@ -1119,7 +1120,7 @@ section #linha2 {
     
     img#foto01 {    
         position: absolute;
-        width: 30%;
+        width: 24%;
         top: 70%;
         left: 5%;
     }
@@ -1127,16 +1128,16 @@ section #linha2 {
     
     img#foto02 {
         position: absolute;
-        width: 35%;
-        top: 27%;
+        width: 30%;
+        top: 32%;
         left: 35%;
     }
     
     img#foto03 {    
-        width: 31%;
+        width: 25%;
         position: absolute;
-        top: 60%;
-        left: 65%;
+        top: 65%;
+        left: 67%;
         
     }
     
@@ -1172,7 +1173,7 @@ section #linha2 {
     
     
     .bandeira img {
-        width: 85%;
+        width: 90%;
         
     }
     
@@ -1180,7 +1181,8 @@ section #linha2 {
     .bandeira {
         position: relative;
         top: 50%;
-        left: 10%;
+        left: 17%;
+        width: 70%;
         
         
     }
@@ -1209,8 +1211,8 @@ section #linha2 {
     .img-quali {
         position: absolute;
         top: 50%;
-        left: 21%;
-        width: 75%;
+        left: 24%;
+        width: 65%;
     }
     
     .foto-quali img {
@@ -1219,7 +1221,7 @@ section #linha2 {
     
     .text-itens {
         position: absolute;
-        top: 8%;
+        top: 5%;
         left: 10%;
         
     }
@@ -1293,14 +1295,14 @@ section #linha2 {
     .foto-acess img {
         position: absolute;
         top: 5%;
-        left: 6%;
-        width: 80%;
+        left: 15%;
+        width: 73%;
     }
     
     .text-acess {
         position: absolute;
-        top: 39%;
-        left: 12%;
+        top: 58%;
+        left: 22%;
     }
     
     .text-acess h2 {
@@ -1320,11 +1322,12 @@ section #linha2 {
                                     Section FAQ */
 
     .rolagem#faq {
+        border: 1px solid blue;
         position: absolute;
         width: 100vw;
         height: 140vh;
         background:white;
-        top: 580vh;
+        top: 606vh;
         left: 0;
         text-align: center;
     }
@@ -1391,19 +1394,20 @@ section #linha2 {
         position: absolute;
         width: 100vw;
         height: 100vh;
-        top: 490vh;
+        top: 500vh;
     }
 
     .img-sec img {
-        width: 80%;
+        width: 75%;
         margin-left: 5%;
-        margin-top: 6%;
+        margin-top: 3%;
+        
     }
 
     .txt-sec {
         position: absolute;
-        top: 35%;
-        left: 25%;
+        top: 55%;
+        left: 30%;
     }
 
     .txt-sec h2 {
@@ -1436,7 +1440,7 @@ section #linha2 {
         width: 100vw;
         height: 100vh;
         background: rgb(139, 14, 35);
-        top: 750vh;
+        top: 760vh;
         left: 0;
         align-content: center;
         align-items: center;
@@ -1531,7 +1535,7 @@ section #linha2 {
     
     .after-line hr {
         position: absolute;
-        top: -90%;
+        top: -40%;
         width: 100%;
         height: 1px;
         background: white;
@@ -1540,7 +1544,7 @@ section #linha2 {
     
     .after-line {
         position: absolute;
-        top: 835vh;
+        top: 840vh;
         width: 80%;
         left: 10%;
    }
@@ -1551,7 +1555,7 @@ section #linha2 {
         font-family: brown_regular;
     }
     .after-line p#esquerda {
-        margin-left: 35px;
+        margin-left: 70px;
         margin-top: -40px;
         float: left;
         
@@ -1565,7 +1569,7 @@ section #linha2 {
 }
     
     .after-line p#direita {
-        margin-left: 90px;
+        margin-left: 110px;
         margin-top: 13px;
         padding-bottom: 10px;
         
@@ -1574,7 +1578,7 @@ section #linha2 {
     
     .after-line p#direita2 {
         margin-top:  13px;
-        margin-left: 95px;
+        margin-left: 110px;
         
         
     }
@@ -1613,7 +1617,6 @@ section #linha2 {
     @media (min-width: 770px) and (max-width: 991px) {
 
         * { 
-            
             margin: 0;
             padding: 0;
             max-width: 100vw;
@@ -2500,6 +2503,7 @@ section #linha2 {
     @media (min-width: 992px) and (max-width: 1270px) {
 
         * { 
+            
             margin: 0;
             padding: 0;
             max-width: 100vw;
@@ -3367,7 +3371,7 @@ section #linha2 {
 @media (min-width: 1271px) and (max-width: 1599px) {
 
     * { 
-        
+      
         margin: 0;
         padding: 0;
         max-width: 100vw;
